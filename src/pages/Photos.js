@@ -3,6 +3,7 @@ import Image from "../components/Image"
 import {Context} from "../Context"
 import {getClass} from "../utils"
 
+
 import "../styles.css"
 
 function Photos() {
@@ -14,7 +15,6 @@ function Photos() {
 
     return (
         <main className="photos">
-            <h1>Images go here</h1>
             {arrPhotos}
         </main>
     )
